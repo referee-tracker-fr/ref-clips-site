@@ -4,6 +4,9 @@
   const EN = document.documentElement.lang === 'en';
   const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 
+  /* Menu téléphone : se referme après un choix */
+  $$('.menu-mob a').forEach(a => a.addEventListener('click', () => { const d = a.closest('details'); if (d) d.open = false; }));
+
   /* Mac / Windows */
   const isWin = /Windows/i.test(navigator.userAgent), isMac = /Macintosh|Mac OS X/i.test(navigator.userAgent);
   const tab = os => {
