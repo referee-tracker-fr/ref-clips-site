@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "notes": "Première version publique de REF CLIPS.",
+  "version": "2.0.1",
+  "notes": "Corrections de sécurité.",
   "mac": "https://clips.referee-tracker.fr/telecharger/mac",
   "win": "https://clips.referee-tracker.fr/telecharger/windows"
 }
