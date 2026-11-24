@@ -1,0 +1,4 @@
+# Cloudflare (wrangler dev)
+.wrangler/
+.dev.vars
+.DS_Store
